@@ -18,3 +18,12 @@
   border-radius: 50%;
   font-family: "cursive";
 }
+
+h2 {
+  width: 40px;
+  padding: 2px;
+  border: 0px;
+  margin: 0px;
+  font-size: 30px;
+  text-align: center;
+}
