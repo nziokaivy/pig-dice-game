@@ -8,6 +8,44 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <body>
 <h1>Pig Dice Game</h1>
+<div id="introduction">
+    <p>Welcome to the pig dice game!
+      <br>Want to play?</p><br>
+    <button id="start" class="btn btn-large btn-warning">Start Game</button>
+  </div>
+
+  <div class="container">
+    <div class="row" id="main">
+      <div class="col-4" id="row-4" >
+        <h2>Player 1</h2>
+        <p>Total Score: <span id="player1totalscore"></span></p>
+        <p>Current Score: <span id="player1currentscore"></span></p>
+        <p> <span id="rolled1">Sorry! You rolled 1</p>
+        <p><span id="turnover"></span></p>
+      </div>
+
+      <div class="col-4" id="row-md-4">
+        <p><output id="player1currentdieroll">Current die roll:</output></p>
+        <p>Current die roll: <span id="player2currentdieroll"></span></p>
+        <p id="playerwin"> Player One Wins!</p>
+        <p id="playerwin"> Player Two Wins!</p><br>
+        <div id="playerbuttons">
+          <button type="button" id="roll" class="btn btn-large btn-danger">ROLL DICE</button><br><br><br>
+          <button type="button" id="hold" class="btn btn-large btn-success">HOLD</button><br><br>
+          <button type="button" id="refresh" class="btn btn-large btn-info">NEW GAME</button>
+        </div>
+      </div>
+
+      <div class="col-4" id="row-md-4">
+        <h2>Player 2</h2>
+        <p><output id="player2totalscore">Total Score: </output></p>
+        <p><output id="player2score">Current Score:</output></p>
+        <p><output id="rolled2">Sorry! You rolled 1!</output></p>
+      </div>
+    </div>
+  </div>
+  </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/index.js"></script>
 </body>
