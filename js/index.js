@@ -18,4 +18,15 @@ rollDice: function() {
   }
   return dice;
 },
+
+/function for changing turn
+changeTurn: function() {
+  if (this.currentPlayer === 1) {
+    this.player1 += this.currentScore;
+    this.currentPlayer = 2;
+  } else {
+    this.player2 += this.currentScore;
+    this.currentPlayer = 1;
+  }
+},
 }
