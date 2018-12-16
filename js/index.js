@@ -36,4 +36,11 @@ hold: function() {
   this.totalScore += this.currentScore;
   this.currentScore = 0;
 },
+
+//function for checking winner
+winner: function() {
+  if (this.totalScore >= 30) {
+    document.getElementById("playerwin").innerHTML = this.playerName + "is the winner!"
+  }
+},
 }
