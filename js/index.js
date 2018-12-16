@@ -44,3 +44,11 @@ winner: function() {
   }
 },
 }
+
+//user interface
+$(document).ready(function() {
+  $(".container").hide();
+  $("#start").click(function() {
+    $(".container").show();
+  })
+})
