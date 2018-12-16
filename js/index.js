@@ -29,4 +29,11 @@ changeTurn: function() {
     this.currentPlayer = 1;
   }
 },
+
+//function for holding
+hold: function() {
+  this.changeTurn();
+  this.totalScore += this.currentScore;
+  this.currentScore = 0;
+},
 }
