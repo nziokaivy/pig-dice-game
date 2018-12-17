@@ -20,17 +20,17 @@
     <div class="row" id="main">
       <div class="col-4" id="row-4">
         <h2>Player 1</h2>
-        <p>Total Score: <span id="player1totalscore"></span></p>
-        <p>Current Score: <output id="player1currentscore"></output></p>
-        <p> <span id="rolled1">Sorry! You rolled 1!</p>
+        <p>Total Score:<br><textarea id="player1totalscore"></textarea></p>
+        <p>Current Score:<br><textarea id="player1currentscore"></textarea></p>
+        <p id="rolled1"><br><textarea> </textarea></p>
         <p><span id="turnover"></span></p>
       </div>
 
       <div class="col-4" id="row-md-4">
-        <p> currentScore <br><textarea  id="player1currentdieroll"></textarea></p>
-        <p><output id="player2currentdieroll">Current die roll: </output></p>
-        <p id="playerwin"> Player One Wins!</p>
-        <p id="playerwin"> Player Two Wins!</p><br>
+        <p> Current Die Roll:<br><textarea  id="player1currentdieroll"></textarea></p>
+        <p id="player2currentdieroll">Current Die Roll:<br><textarea ></textarea></p>
+        <p id="player1win"> Player One Wins!</p>
+        <p id="player2win"> Player Two Wins!</p><br>
         <div id="playerbuttons">
           <button type="button" id="rolled" class="btn btn-large btn-danger" onclick="roll()">ROLL DICE</button><br><br><br>
           <button type="button" id="hold" class="btn btn-large btn-success">HOLD</button><br><br>
@@ -40,8 +40,8 @@
 
       <div class="col-4" id="row-md-4">
         <h2>Player 2</h2>
-        <p><output id="player2totalscore">Total Score: </output></p>
-        <p><output id="player2score">Current Score:</output></p>
+        <p>Total Score:<br><textarea id="player2totalscore"></textarea></p>
+        <p>Current Score:<br><textarea id="player2score"></textarea></p>
         <p><output id="rolled2">Sorry! You rolled 1!</output></p>
       </div>
     </div>
