@@ -1,25 +1,29 @@
 //business logic
 //game object
-var game = {
+
+/*var game = {
   totalScore: 0,
   currentScore: 0,
   currentPlayer: 1,
   player1: 0,
-  player2: 0,
+  player2: 0,*/
 
-  //random number function when rolling dice
-  rollDice: function() {
-    var dice = Math.floor(Math.random() * 6);
+  function roll() {
+  var random = Math.floor(Math.random() * 6);
+    document.getElementById("player1currentdieroll").value = random;
+  }
+
+  /*rollDice: function() {
+    dice();
     if (dice === 1) {
       this.currentScore = 0;
       this.changeTurn();
     } else {
-      this.currentScore += dice;
+    this.currentScore += dice;
     }
     return dice;
   },
 
-  //function for changing turn
   changeTurn: function() {
     if (this.currentPlayer === 1) {
       this.player1 += this.currentScore;
@@ -28,7 +32,7 @@ var game = {
       this.player2 += this.currentScore;
       this.currentPlayer = 1;
     }
-  },
+  }
 
   //function for holding
   hold: function() {
@@ -45,6 +49,10 @@ var game = {
   },
 }
 
+document.getElementById("player1currentdieroll").innerHTML = function()
+
+function rollD
+
 //user interface
 $(document).ready(function() {
   $(".container").hide();
@@ -52,3 +60,4 @@ $(document).ready(function() {
     $(".container").show();
   })
 })
+}*/
