@@ -17,9 +17,14 @@ Can count upto 100.
 
 | Behaviour | Input | Output |
 |-----------|-------|--------|
-|The game will randomly roll upto 6 while accumulating the rolls|A random number between the values of 1- 6|the score will be current score + new generated random number|
-|Able to add on player| Player 1 | return Player 1|
-|Able to add score
+| When player press roll |player hits roll |generates random number between 1-6  |
+| Web app will add roll to current score| player hits roll | current score will be initial rolled number|
+| Web app will add second rolls to current score | player hits roll | current score = initial rolled number + new rolled number |
+| Web app allows player to roll and return total score | Player hits hold | total score = current score |
+| Web app will clear current score when player hits hold | player hits hold | total score = 0 |
+| Web app will clear current score if rolled random number = 1 | player rolled 1 | current score = 0 and the total score remains unchanged |
+|web app will initialize other player's turn when running total is cleared | other play now hits roll | a random number between 1 - 6 is generated |
+|Game ends when either of the players gets to a total score of 100 | total score equals 100 | Winning player! | 
 ## Setup/Installation Requirements
 Install the pig dice game by cloning this repository:
 
