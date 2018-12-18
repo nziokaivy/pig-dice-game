@@ -7,13 +7,13 @@
 ## Description
 This is a simple, responsive website that contains a pig dice game.The game is played using a single die and one wins by being the first player to score 100 points.
 
-## Working of the website.
+##Working of the website.
 The project runs on a browser.One can use a smartphone,desktop or tablet.
 
 ## Specifications
 Can count upto 100.
 
-## Behaviour Driven Development
+##Behaviour Driven Development
 
 | Behaviour | Input | Output |
 |-----------|-------|--------|
