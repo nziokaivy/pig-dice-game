@@ -66,9 +66,9 @@ function hold() {
 
 //function for checking winner
 function winner() {
-  if (document.getElementById("player1totalscore").value >= 30) {
+  if (document.getElementById("player1totalscore").value >= 100) {
     document.getElementById("playerwin").innerHTML = "Player 1 is the winner!"
-  } else if (document.getElementById("player2totalscore").value >= 30) {
+  } else if (document.getElementById("player2totalscore").value >= 100) {
     document.getElementById("playerwin").innerHTML = "Player 2 is the winner!"
   } else {
     document.getElementById("playerwin").innerHTML = ""
