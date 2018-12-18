@@ -11,6 +11,8 @@ This is a simple, responsive website that contains a pig dice game.The game is p
 ## Working of the website.
 The project runs on a browser.One can use a smartphone,desktop or tablet.
 
+## Live Demo
+Please find a link to a live demo here: [https://nziokaivy.github.io/pig-dice-game/]
 ## Specifications
 
 Can count upto 100.
