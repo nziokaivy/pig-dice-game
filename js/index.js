@@ -81,6 +81,7 @@ $(document).ready(function() {
   $("#start").click(function() {
     document.getElementById("play1").innerHTML = "Player 1 is rolling";
     $(".container").show();
+    $("#introduction").hide();
     $("#player2currentdieroll,#player1win,#player2win,#rolled2").hide();
   })
 })
